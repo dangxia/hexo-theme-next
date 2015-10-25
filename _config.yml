@@ -27,11 +27,11 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
+  tags: /tags
   #about: /about
   archives: /archives
-  tags: /tags
-  #commonweal: /404.html
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -57,7 +57,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -71,7 +71,7 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
+sidebar: hide
 #sidebar: always
 #sidebar: hide
 #sidebar: remove
@@ -149,10 +149,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 192da5f5f63c7884ac9970b2d7d49848
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: dangxiablog
 
 # Disqus
 #disqus_shortname:
