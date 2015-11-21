@@ -42,6 +42,7 @@
   </div>
 
   <script type="text/javascript" src="{{ url_for(theme.vendors) }}/jquery/index.js?v=2.1.3"></script>
+  <script type="text/javascript" src="{{ url_for(theme.vendors) }}/english.js"></script>
 
   {# This block is used to set options before any other scripts run #}
   {% block script_extra_before %}{% endblock %}
