@@ -1,6 +1,9 @@
 $(function(){
-  var myVoice = document.getElementById("_myVoice");
+  var myVoice = null;
   $('a[href="#v"]').click(function(event){
+    if(myVoice == null){
+      myVoice = document.createElement("audio");
+    }
     var p = $(event.target).parent();
     var text = p.text().trim();
     var index = text.search(' ');
