@@ -14,7 +14,7 @@ $(function(){
 );
 function findWords(text){
   text = text.trim();
-  var index = text.search('\\[');
+  var index = text.search('[\\[/]');
   if(index != -1){
     text = text.substr(0,index).trim();
   }
