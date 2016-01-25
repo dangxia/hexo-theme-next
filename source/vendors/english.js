@@ -29,7 +29,9 @@ $(function(){
   }
   
   function readRepeat(){
-    readCursor();
+    myVoice.pause();
+    myVoice.currentTime = 0;
+    myVoice.play();
   }
   
   function addWordCursor(){
@@ -50,6 +52,8 @@ $(function(){
           case 40: // down
             readRepeat();
           break;
+          default:
+            return true;
       }
       return false;
     });
