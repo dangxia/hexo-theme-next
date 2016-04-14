@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "HEXH's Blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -26,11 +26,11 @@ rss:
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
+  tags: /tags
   #about: /about
   archives: /archives
-  tags: /tags
-  #commonweal: /404.html
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -56,8 +56,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -73,7 +74,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: /fonts
 
   # Global font settings used on <body> element.
   global:
@@ -119,6 +120,8 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
+social:
+ github: https://github.com/dangxia
 
 
 # Social Links Icons
@@ -166,7 +169,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
-  display: post
+  display: hide
   #display: always
   #display: hide
   #display: remove
@@ -228,10 +231,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 192da5f5f63c7884ac9970b2d7d49848
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: xuehuihe-java
 
 # Disqus
 #disqus_shortname:
@@ -255,7 +258,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-64562250-1
 
 # CNZZ count
 #cnzz_siteid:

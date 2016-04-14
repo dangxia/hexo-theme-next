@@ -57,6 +57,8 @@
 
   {% include '_scripts/vendors.swig' %}
   {% include '_scripts/commons.swig' %}
+  
+  <script type="text/javascript" src="/english.js"></script>
 
   {% set scheme_script = '_scripts/schemes/' + theme.scheme | lower + '.swig' %}
   {% include scheme_script %}
